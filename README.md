@@ -17,6 +17,8 @@ VORTEX achieves state-of-the-art texture recognition performance without ever fi
 ## Usage of the VORTEX module
 
 * Check ```demo.ipynb```
+
+#### Creating a VORTEX feature extractor 
 ```python
 from models import VORTEX
 ## Define the backbone according to models available in 'timm'
@@ -26,8 +28,7 @@ input_size = 224 # input size must be fixed according to the selected ViT backbo
 feature_extractor = VORTEX(backbone, input_size)
 ```
 
-## Usage of the VORTEX module
-
+#### Extracting features for a given image or batch 
 ```python
 from torchvision import transforms
 from PIL import Image
@@ -52,7 +53,7 @@ features = feature_extractor(image_tensor.unsqueeze(0))
 
 ## Requirements
 
-The main packages are `timm`, to load the proper ViT backbones, and torch for the VORTEX modules. Check `requirements.txt` to see the full list of packages used in our virtual environment.
+These are main packages to use the VORTEX module. Check `requirements.txt` to see the full list of packages used in our experiments and analyses (such as scikit-learn).
 
 * pytorch     : 2.4.0
 * torchvision : 0.19.0
@@ -69,7 +70,7 @@ The main packages are `timm`, to load the proper ViT backbones, and torch for th
 ## Additional resources
 
 * Dataloaders for many texture datasets, see ```datasets.py```
-* Script for experimentation, see ```classify_features.py``` and others
+* Script for experimentation, see ```classify_features.py```
 
 ## Usage of the script for experiments
 * See ```python classify_features.py --help``` for usage information. An example with VORTEX:
