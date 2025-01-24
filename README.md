@@ -11,7 +11,7 @@ VORTEX uses pre-trained Vision Transformers (ViTs) available in ```timm==1.0.11`
 VORTEX achieves state-of-the-art texture recognition performance without ever fine-tuning the ViT backbones, and using only a linear SVM for classification.
 
 <p align="center">
-    <img src="figures/results.png" height="640px">
+    <img src="figures/results.png" height="440px">
 </p>
 
 ## Usage of the VORTEX module
