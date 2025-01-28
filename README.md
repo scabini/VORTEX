@@ -32,7 +32,6 @@ feature_extractor = VORTEX(backbone, input_size)
 ```python
 from torchvision import transforms
 from PIL import Image
-import matplotlib.pyplot as plt
 
 ## Load an image
 image_path = "figures/texture_sample.jpg"  # Replace with your image path
