@@ -25,7 +25,7 @@ from models import VORTEX
 backbone = 'beitv2_base_patch16_224.in1k_ft_in22k_in1k'
 input_size = 224 # input size must be fixed according to the selected ViT backbone
 
-feature_extractor = VORTEX(backbone, input_size)
+VORTEX_feature_extractor = VORTEX(backbone, input_size)
 ```
 
 #### Extracting features for a given image or batch 
@@ -46,7 +46,7 @@ transform = transforms.Compose([
 image_tensor = transform(image)
 
 # Obtain the VORTEX features for the image (or a batch of images)
-features = feature_extractor(image_tensor.unsqueeze(0))
+features = VORTEX_feature_extractor(image_tensor.unsqueeze(0))
 ```
 
 
