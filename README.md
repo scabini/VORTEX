@@ -82,18 +82,3 @@ Pay attention to args:
 
  * ```--data_path``` (path to load/download datasets)
  * ```--output_path``` (path to save extracted features and classification results, need 2 subfolders inside: feature_matrix/ and classification/)
-
-
-
-## Credits
-
-If you use our code or methods, please cite the paper:
-
-
-```
-@article{scabini2025vortex,
-
-}
-```   
-
-____________________________________________________________________________________________________________________________________________
