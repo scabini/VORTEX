@@ -1,6 +1,6 @@
 
 
-# VORTEX: SURPASSING CNNS AT TEXTURE RECOGNITION BY USING VISION TRANSFORMERS WITH ORDERLESS AND RANDOMIZED TOKEN ENCODINGS
+# VORTEX: Challenging CNNs at Texture Recognition by using Vision Transformers with Orderless and Randomized Token Encodings 
 
 VORTEX uses pre-trained Vision Transformers (ViTs) available in ```timm==1.0.11``` for texture feature extraction, and then "classic" machine learning classification is done with ```scikit-learn``` classifiers. Several dataloaders are available for texture benchmarks, see ```datasets.py```. VORTEX works with any ViT backbone with the usual transformer architecture (check the backbones used in the paper, but you may try other architectures to see if it works with them too) . See ```demo.ipynb``` to get started.
 
