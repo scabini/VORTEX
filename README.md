@@ -82,3 +82,25 @@ Pay attention to args:
 
  * ```--data_path``` (path to load/download datasets)
  * ```--output_path``` (path to save extracted features and classification results, need 2 subfolders inside: feature_matrix/ and classification/)
+
+## Credits
+
+If you use our code or methods, please cite the paper:
+
+Leonardo Scabini, Kallil M. Zielinski, Emir Konuk, Ricardo T. Fares, Lucas C. Ribas, Kevin Smith, Odemir M. Bruno,
+VORTEX: Challenging CNNs at Texture Recognition by using Vision Transformers with Orderless and Randomized Token Encodings,
+arXiv:2503.06368,
+2025,
+https://arxiv.org/abs/2503.06368
+
+```
+@misc{scabini2025vortexchallengingcnnstexture,
+      title={VORTEX: Challenging CNNs at Texture Recognition by using Vision Transformers with Orderless and Randomized Token Encodings}, 
+      author={Leonardo Scabini and Kallil M. Zielinski and Emir Konuk and Ricardo T. Fares and Lucas C. Ribas and Kevin Smith and Odemir M. Bruno},
+      year={2025},
+      eprint={2503.06368},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2503.06368}, 
+}
+```   
